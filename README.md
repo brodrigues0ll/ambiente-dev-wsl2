@@ -76,7 +76,7 @@
   ```sh
   zsh
   ```
-  #### Mudar ~/.zshrc -> ZSH_THEME="agnoster"
+  #### Mudar `~/.zshrc` -> ZSH_THEME="agnoster"
 
   <br>
 
@@ -97,4 +97,4 @@
   <br>
 
   ## Mudar plugins
-  ###  ~/.zshrc  ->  plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+  ###  `~/.zshrc`  ->  plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
