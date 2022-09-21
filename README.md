@@ -36,6 +36,13 @@
   ### 1. Baixar
   #### https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=pt-br&gl=br
   
+  ### 2. Adicionar configuração no arquivo JSON
+  ### Configuração pronta para copiar e colar: https://github.com/brodrigues0ll/ambiente-dev-wsl2/blob/main/settings.json
+  
+  <br>
+  
+  <img src="https://github.com/brodrigues0ll/ambiente-dev-wsl2/blob/main/2022-09-21%2004-19-47.gif" width="800" height="500" />  
+  
   <br>
   <br>
   
