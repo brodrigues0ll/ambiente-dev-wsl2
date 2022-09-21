@@ -97,4 +97,4 @@
   <br>
 
   ## Mudar plugins
-  ###  ~/.zshrc ~> plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+  ###  ~/.zshrc  ->  plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
