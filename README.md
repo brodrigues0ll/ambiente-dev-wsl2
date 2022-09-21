@@ -76,8 +76,7 @@
   ```sh
   zsh
   ```
-  #### Mudar `~/.zshrc` -> ZSH_THEME="agnoster"
-
+  
   <br>
 
   ## Instalar Zsh Autosuggestions
@@ -96,5 +95,11 @@
 
   <br>
 
-  ## Mudar plugins
-  ###  `~/.zshrc`  ->  plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+  ## Mudar o arquivo `.zshrc` no diretório `~/`    
+  ### Linha `ZSH_THEME=""` passa a ser `ZSH_THEME="agnoster"`  
+  <img src="https://github.com/brodrigues0ll/ambiente-dev-wsl2/blob/main/Screenshot_6.png" width="600" height="300" />
+  
+  
+  ### Linha `plugins=(git)` passa a ser `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`  
+  <img src="https://github.com/brodrigues0ll/ambiente-dev-wsl2/blob/main/Screenshot_7.png" width="600" height="300" />
+
