@@ -2,25 +2,23 @@
   ## Habilitar WSL e Atualizar para WSL2
   ##### OBS.: Executar powershell como administrador.
 
-  #### 1
+  #### 1. Habilitar WSL
   ```sh
   dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
   ```
-  #### 2
+  #### 2. Habilitar Virtualização
 
   ```sh
   dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
   ```
 
-  #### 3
-  ### Reiniciar o Computador
+  #### 3. Reiniciar o Computador
 
-  #### 4
-  ### Baixar e instalar atualização do WSL
+  #### 4. Baixar e instalar atualização do WSL
   https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 
-  #### 5
-  ##### OBS.: Lembrar de executar powershell como administrador.
+  #### 5. Executar powershell como administrador e executar o código abaixo.
+  
   ```sh
   wsl --set-default-version 2
   ```
@@ -33,9 +31,11 @@
   ## Instalar Ubuntu para WSL
   #### https://apps.microsoft.com/store/detail/ubuntu/9PDXGNCFSCZV?hl=pt-br&gl=br
 
-  ## Instalar Terminal Windows
+  ## Instalar e configurar Terminal Windows:
+  
+  ### 1. Baixar
   #### https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=pt-br&gl=br
-
+  
   <br>
   <br>
   
