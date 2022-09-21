@@ -102,4 +102,35 @@
   
   ### Linha `plugins=(git)` passa a ser `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`  
   <img src="https://github.com/brodrigues0ll/ambiente-dev-wsl2/blob/main/Screenshot_7.png" width="600" height="300" />
+  
+  ## Instalar NPM
+  ```sh
+  curl -qL https://www.npmjs.com/install.sh | sh
+  ```
+  
+  ## Instalar NVM
+  ### 1.
+  ```sh
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+  ```
+  ### 2.
+  ```sh
+  export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+  ```
+  <br>
+  
+  ## Instalar NODE na versão 16
+   ```sh
+  sudo nvm install 16
+  ```
+  
+  ```sh
+  nvm alias default 16
+  ```
+  <br>
+  
+  ## Verificar versões do Node, NPM e NVM
+  ```sh
+  node -v && npm --version && nvm --version
+  ```
 
