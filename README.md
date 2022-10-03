@@ -105,14 +105,20 @@
   
   ## Instalar NPM
   ```sh
+  sudo apt install nodejs
+  ```
+  
+  ```sh
+  sudo apt install npm
+  ```
+  
+  ```sh
   curl -qL https://www.npmjs.com/install.sh | sh
   ```
   
   ## Instalar NVM
   ### 1.
-  ```sh
-  sudo apt install nodejs
-  ```
+
   
   ```sh
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
