@@ -144,3 +144,25 @@
   node -v && npm --version && nvm --version
   ```
 
+ ## Instalando chave ssh do Github
+ ```sh
+  git config --global user.name "username"
+  ```
+  ```sh
+  git config --global user.email "email"
+  ```
+   ```sh
+  sudo apt install git
+  ```
+  ```sh
+  sudo apt install openssh-client
+  ```
+  ```sh
+  ssh-keygen -t rsa -C <email>
+  ```
+  ```sh
+  cat .ssh/id_rsa.pub
+  ```
+  ```sh
+  ssh -T git@github.com
+  ```
