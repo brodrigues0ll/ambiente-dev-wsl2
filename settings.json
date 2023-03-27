@@ -1,13 +1,15 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
+    "actions": 
+    [
         {
             "command": "paste",
             "keys": "ctrl+v"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
@@ -18,7 +20,8 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -28,15 +31,19 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-    "profiles": {
-        "defaults": {
-            "font": {
+    "defaultProfile": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "font": 
+            {
                 "face": "Go Mono for Powerline",
-                "size": 13
+                "size": 13.0
             }
         },
-        "list": [
+        "list": 
+        [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -56,23 +63,31 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
+                "backgroundImage": "https://wallpapercave.com/wp/wp2943229.jpg",
+                "backgroundImageOpacity": 0.81,
                 "colorScheme": "Campbell",
+                "commandline": "Ubuntu.exe",
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
                 "name": "Ubuntu",
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+                "opacity": 100,
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
+                "startingDirectory": "~"
             },
             {
                 "backgroundImage": "https://wallpapercave.com/wp/wp2943229.jpg",
-                "backgroundImageOpacity": 0.81000000000000005,
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": true,
+                "backgroundImageOpacity": 0.81,
+                "commandline": "wsl.exe -d Ubuntu",
+                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+                "hidden": false,
+                "icon": "https://cdn-icons-png.flaticon.com/512/6124/6124995.png",
                 "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
+                "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\brodrigues"
             }
         ]
     },
-    "schemes": [
+    "schemes": 
+    [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -303,5 +318,6 @@
             "white": "#C0C0C0",
             "yellow": "#808000"
         }
-    ]
+    ],
+    "themes": []
 }
